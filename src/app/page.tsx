@@ -4,13 +4,16 @@ export const metadata: Metadata = {
   title: "Tippz — Tips med QR-kode",
 };
 
-const APP_STORE_URL =
-  "https://apps.apple.com/app/tippz";
+const APP_STORE_URL = "https://apps.apple.com/app/tippz";
 
 export default function HomePage() {
   return (
     <>
       <section className="hero">
+        <div className="hero-glow" aria-hidden />
+        <div className="hero-orb" aria-hidden>
+          <span>T</span>
+        </div>
         <p className="hero-brand">Tippz</p>
         <h1>Tips med QR-kode</h1>
         <p>
@@ -22,18 +25,36 @@ export default function HomePage() {
             Last ned i App Store
           </a>
           <a className="btn btn-ghost" href="/vilkar">
-            Vilkår for bruk
+            Vilkår
           </a>
         </div>
       </section>
 
       <section className="section">
         <h2>Slik fungerer det</h2>
-        <p>
-          Opprett profil med Sign in with Apple, få din unike QR-kode, og del
-          den med kunder. Tips går via Apple In-App Purchase. Abonnement
-          (Tippz Pro) er valgfritt.
-        </p>
+        <div className="steps">
+          <div className="step">
+            <div className="step-num">1</div>
+            <div>
+              <strong>Logg inn med Apple</strong>
+              <span>Opprett profil på sekunder.</span>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">2</div>
+            <div>
+              <strong>Del din QR-kode</strong>
+              <span>På bordet, speilet eller i butikken.</span>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">3</div>
+            <div>
+              <strong>Motta tips</strong>
+              <span>Direkte i appen via Apple Pay / In-App Purchase.</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="section">

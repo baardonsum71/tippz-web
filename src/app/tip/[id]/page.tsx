@@ -21,9 +21,9 @@ export default async function TipPage({ params }: Props) {
 
   return (
     <div className="tip-card">
-      <p className="hero-brand" style={{ fontSize: "2.5rem", marginBottom: "0.5rem" }}>
-        Tippz
-      </p>
+      <div className="tip-orb" aria-hidden>
+        <span>T</span>
+      </div>
       <h1>Scan for å tipse</h1>
       <p className="tip-code">{code}</p>
       <p>
