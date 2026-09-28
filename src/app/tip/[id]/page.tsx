@@ -13,6 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const APP_STORE_URL = "https://apps.apple.com/app/tippz";
+const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=tippz.app";
 
 export default async function TipPage({ params }: Props) {
   const { id } = await params;
@@ -28,14 +30,17 @@ export default async function TipPage({ params }: Props) {
       <p className="tip-code">{code}</p>
       <p>
         Åpne Tippz-appen for å sende tips. Har du ikke appen ennå? Last den
-        ned i App Store.
+        ned i App Store eller Google Play.
       </p>
       <div className="cta-row">
         <a className="btn btn-primary" href={deepLink}>
           Åpne i Tippz
         </a>
         <a className="btn btn-ghost" href={APP_STORE_URL}>
-          Last ned appen
+          App Store
+        </a>
+        <a className="btn btn-ghost" href={PLAY_STORE_URL}>
+          Google Play
         </a>
       </div>
     </div>

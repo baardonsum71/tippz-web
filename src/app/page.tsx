@@ -5,6 +5,8 @@ export const metadata: Metadata = {
 };
 
 const APP_STORE_URL = "https://apps.apple.com/app/tippz";
+const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=tippz.app";
 
 export default function HomePage() {
   return (
@@ -24,6 +26,9 @@ export default function HomePage() {
           <a className="btn btn-primary" href={APP_STORE_URL}>
             Last ned i App Store
           </a>
+          <a className="btn btn-primary" href={PLAY_STORE_URL}>
+            Last ned i Google Play
+          </a>
           <a className="btn btn-ghost" href="/vilkar">
             Vilkår
           </a>
@@ -36,8 +41,8 @@ export default function HomePage() {
           <div className="step">
             <div className="step-num">1</div>
             <div>
-              <strong>Logg inn med Apple</strong>
-              <span>Opprett profil på sekunder.</span>
+              <strong>Logg inn</strong>
+              <span>Apple på iOS, Google på Android.</span>
             </div>
           </div>
           <div className="step">
@@ -51,7 +56,7 @@ export default function HomePage() {
             <div className="step-num">3</div>
             <div>
               <strong>Motta tips</strong>
-              <span>Direkte i appen via Apple Pay / In-App Purchase.</span>
+              <span>Direkte i appen via App Store eller Google Play.</span>
             </div>
           </div>
         </div>

@@ -9,25 +9,26 @@ export default function VilkarPage() {
   return (
     <article className="legal-page">
       <h1>Vilkår for bruk – Tippz</h1>
-      <p className="updated">Sist oppdatert: juli 2026</p>
+      <p className="updated">Sist oppdatert: september 2026</p>
 
       <h2>1. Om tjenesten</h2>
       <p>
         Tippz er en tips-tjeneste for tjenesteytere (f.eks. frisører) og kunder
-        som vil gi tips. Tjenesten tilbys via iOS-appen Tippz og nettstedet
-        tippz.app av Baard Onsum.
+        som vil gi tips. Tjenesten tilbys via Tippz-appen for iOS og Android,
+        og nettstedet tippz.app, av Baard Onsum.
       </p>
 
       <h2>2. Konto og innlogging</h2>
       <p>
-        Brukere logger inn med Sign in with Apple. Du er ansvarlig for aktivitet
-        på egen konto. Du kan slette kontoen din i appen under Profil → Delete
-        Account.
+        På iOS logger du inn med Sign in with Apple. På Android logger du inn
+        med Google. Du er ansvarlig for aktivitet på egen konto. Du kan slette
+        kontoen i appen under Profil → Delete Account på iOS, eller Profil →
+        Slett konto på Android.
       </p>
 
       <h2>3. Abonnement (Tippz Pro)</h2>
       <p>
-        Tippz tilbyr auto-fornyende abonnement (Tippz Monthly / Tippz Yearly):
+        Tippz Pro er et årsabonnement som fornyes automatisk:
       </p>
       <ul>
         <li>
@@ -35,18 +36,21 @@ export default function VilkarPage() {
           timer før perioden utløper.
         </li>
         <li>
-          Betaling belastes Apple-ID-kontoen ved bekreftelse av kjøp.
+          På iOS belastes betalingen Apple-ID-kontoen. På Android belastes den
+          Google-kontoen via Google Play.
         </li>
         <li>
-          Administrer eller avslutt abonnement under Innstillinger → Apple-ID →
-          Abonnementer.
+          På iOS administrerer du abonnementet under Innstillinger → Apple-ID →
+          Abonnementer. På Android gjør du det i Google Play under Betalinger
+          og abonnementer.
         </li>
       </ul>
 
       <h2>4. Tips og betalinger</h2>
       <p>
-        Tips og abonnement håndteres via Apple In-App Purchase. Tippz er ikke
-        bank, arbeidsgiver eller lønnsleverandør.
+        Tips og abonnement håndteres via Apple In-App Purchase på iOS og Google
+        Play Billing på Android. Tippz er ikke bank, arbeidsgiver eller
+        lønnsleverandør.
       </p>
 
       <h2>5. QR-kode og deling</h2>
@@ -70,7 +74,7 @@ export default function VilkarPage() {
       <h2>8. Ansvarsbegrensning</h2>
       <p>
         Tippz leveres «som den er». Vi er ikke ansvarlige for indirekte tap,
-        driftsstans, eller tap knyttet til tredjeparter (inkl. Apple).
+        driftsstans, eller tap knyttet til tredjeparter (inkl. Apple og Google).
       </p>
 
       <h2>9. Personvern</h2>

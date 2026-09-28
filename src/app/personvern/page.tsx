@@ -9,7 +9,7 @@ export default function PersonvernPage() {
   return (
     <article className="legal-page">
       <h1>Personvernerklæring – Tippz</h1>
-      <p className="updated">Sist oppdatert: juli 2026</p>
+      <p className="updated">Sist oppdatert: september 2026</p>
 
       <h2>1. Behandlingsansvarlig</h2>
       <p>
@@ -20,14 +20,16 @@ export default function PersonvernPage() {
       <h2>2. Hvilke opplysninger vi behandler</h2>
       <ul>
         <li>
-          Apple-bruker-ID og eventuelt navn/e-post fra Sign in with Apple
+          Bruker-ID og eventuelt navn eller e-post fra Sign in with Apple på
+          iOS, eller fra Google-innlogging på Android
         </li>
         <li>Profilinformasjon du oppgir (navn, yrke, QR-kode)</li>
         <li>
           Tipshistorikk lagret lokalt på enheten for din egen oversikt
         </li>
         <li>
-          Kjøpsdata knyttet til Apple In-App Purchase / abonnement (via Apple)
+          Kjøpsdata knyttet til abonnement via Apple In-App Purchase eller Google
+          Play
         </li>
       </ul>
 
@@ -41,12 +43,12 @@ export default function PersonvernPage() {
       <p>
         Profil- og tipshistorikk kan lagres lokalt på enheten. Vi bruker ikke
         unødvendig innsamling. Du kan slette konto og data i appen under Profil
-        → Delete Account.
+        → Delete Account på iOS, eller Profil → Slett konto på Android.
       </p>
 
       <h2>5. Deling med tredjeparter</h2>
       <p>
-        Betalinger går via Apple. Vi selger ikke personopplysninger. Vi kan
+        Betalinger går via Apple eller Google Play. Vi selger ikke personopplysninger. Vi kan
         dele data når loven krever det.
       </p>
 
